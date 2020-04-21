@@ -6,6 +6,7 @@ body{
 	font-family: ;
 	font-size: 14px;
 	line-height: 24px;
+	overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: ;
@@ -20,6 +21,9 @@ a,a:hover{
 	width: 100%;
 	background: url(../images/hero.png) center top no-repeat;
 	background-size: cover;
+}
+.main-nav{
+	
 }
 .header-section.bg-light {
     background-color: transparent !important;
@@ -482,7 +486,216 @@ a,a:hover{
 /*************************************************
          ****footer section end***
 *************************************************/
+/*************************************************
+         ****css media query start***
+*************************************************/
 
 
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
 
+@media (min-width: 320px) and (max-width: 480px) {
+	.main-nav{
+
+	}
+  .navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    margin-left: -51px;
+}
+.banner h1 {
+    font-size: 36px;
+    margin-top: -109px;
+}
+.banner .btn-info {
+    padding: 6px 12px;
+}
+.highlight h3 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 34px;
+}
+.fetures-inner h2 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: -68px;
+}
+.fetures-inner p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    
+}
+.last span {
+    font-size: 71px;
+    
+}
+.last strong {
+    font-size: 10px;
+}
+.intro-inner {
+    background: url(../images/quote.png) center;
+        background-size: auto;
+    background-size: cover;
+    padding: 0px 0px;
+}
+.intro-content p {
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+}
+.efficiency-inner h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.right-inner .btn-primary {
+    
+    padding: 5px 11px;
+    
+}
+.efficiency-inner p {
+    font-size: 9px;
+    line-height: 16px;
+    font-weight: 400;
+    margin: 30px 10px;
+}
+.btn-efficiency .btn-efficiency-inner {
+   
+    padding: 10px 23px;
+    
+    font-size: 10px;
+    
+}
+.design-inner h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+.col-md-3 {
+    margin-bottom: 144px;
+}
+.col-md-4 p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 149px;
+}
+.rational {
+    margin-top: 134px;
+}
+.faq-inner {
+    
+    margin: 0px 14px;
+}
+.faq-inner h1 {
+    text-align: center;
+   
+    font-size: 22px;
+    font-weight: 900;
+   
+}
+.faq-inner p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.faq-inner h6 {
+   
+    font-weight: 700;
+    margin-left:10px;
+    margin-top:0px;
+}
+.faq-inner h6:hover {
+    
+    font-weight: 700;
+    margin-left:10px;
+    
+}
+.faq {
+    width: 100%;
+    margin-top: 682px;
+}
+
+.footer {
+    width: 100%;
+    height: 318px;
+    background: blue;
+    margin-top: 35px;
+}
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .fetures-inner h2 {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.efficiency-inner h1 {
+    font-size: 34px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+.efficiency-inner p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 30px 10px;
+}
+.footer {
+    width: 100%;
+    height: 253px;
+    background: blue;
+    margin-top: 464px;
+}
+.faq-inner p {
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 400;
+    margin: 30px 110px;
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ 
+  
+}
+
+/*****stickup css code******/
+.isStuck{
+    left:0px;
+    width:100%;
+    background:yellow;
+    
+}
+
+.navbar-wrapper {
+    margin-top: 0px;
+    position: relative;
+    z-index: 15;
+    width: 100%;
+    
+}
 
