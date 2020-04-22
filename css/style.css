@@ -511,6 +511,14 @@ a,a:hover{
 .banner .btn-info {
     padding: 6px 12px;
 }
+.client {
+    width: 200px
+    padding: 54px 0px;
+    text-align: center;
+}
+.client img{
+    width: 251px;
+}
 .highlight h3 {
     font-size: 15px;
     font-weight: 700;
@@ -669,6 +677,14 @@ a,a:hover{
     font-weight: 400;
     margin: 30px 110px;
 }
+.client {
+    width: 200px
+    padding: 54px 0px;
+    text-align: center;
+}
+.client img {
+    width: 429px;
+}
   
 }
 
@@ -678,7 +694,9 @@ a,a:hover{
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
+  .client img {
+    width: 571px;
+}
  
   
 }
