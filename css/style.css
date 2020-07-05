@@ -736,6 +736,9 @@ html{
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .banner h1 {
+    font-size: 24px;
+}
   .client img {
     width: 571px;
 }
